@@ -20,13 +20,18 @@ VALUES
     ('Introduction to Programming', 1),
     ('Calculus I', 2),
     ('Database Management', 1);
+    ('Astrophysics', 3);
 
 -- Grades
 INSERT INTO grades (grades_students_id, grades_course_id, grades_grade)
 VALUES
-    (1, 1, 'A'),
-    (1, 2, 'B'),
-    (2, 1, 'B'),
-    (2, 3, 'A'),
-    (3, 2, 'C'),
-    (3, 3, 'B');
+    (1, 1, 100),
+    (1, 2, 54),
+    (2, 1, 68),
+    (2, 3, 90),
+    (3, 2, 54),
+    (3, 3, 75),
+    (4, 1, 40),
+    (4, 3, 79),
+    (1, 2, 99),
+    (2, 3, 25);
